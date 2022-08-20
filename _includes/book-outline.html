@@ -1,0 +1,80 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h2>The Book</h2>
+      <h3>
+        When you learn a new programming language, the traditional first step
+        is to go through a "Hello, World" tutorial that teaches you everything
+        you need to know to get a basic program working, such as one that
+        prints the text "Hello, World" to the screen. This book is the
+        "Hello, World" tutorial for building products, technologies, and teams
+        in a startup environment. To see what's inside, check out the
+        <a href="#outline" class="page-scroll js-fudge-scroll">outline</a> and
+        <a href="#interviews" class="page-scroll js-fudge-scroll">interviews</a>.
+      </h3>
+    </div>
+  </div>
+  <h4 id="outline">Outline</h4>
+  <h3>
+    <em>{{ site.short_title }}</em> is a practical, actionable, how-to guide to
+    startups. The book consists of three parts: Products, Technologies, and
+    Teams. Although at its core, this is a book for programmers, by
+    programmers, only Part II, Technologies, is significantly technical. Parts
+    I and III should be accessible to technical and non-technical audiences
+    alike. Below is the list of chapters in each part, and under each chapter,
+    a sampling of the concrete techniques, tools, and skills you will learn
+    from reading it.
+  </h3>
+  <div class="row book-outline" id="part-1-products">
+    <div class="col-sm-{{ site.left_column_size }} centered">
+      <div class="fa fa-shopping-cart fa-5x circle-icon"></div>
+      <h4>Part I: Products</h4>
+    </div>
+    <div class="col-sm-{{ site.right_column_size }}">
+      {% include outline-part-1.html %}
+    </div>
+  </div>
+  <div class="row book-outline" id="part-2-technologies">
+    <div class="col-sm-{{ site.left_column_size }} centered">
+      <div class="fa fa-gears fa-5x circle-icon"></div>
+      <h4>Part II: Technologies</h4>
+    </div>
+    <div class="col-sm-{{ site.right_column_size }}">
+      {% include outline-part-2.html %}
+    </div>
+  </div>
+  <div class="row book-outline" id="part-3-teams">
+    <div class="col-sm-{{ site.left_column_size }} centered">
+      <div class="fa fa-users fa-5x circle-icon"></div>
+      <h4>Part III: Teams</h4>
+    </div>
+    <div class="col-sm-{{ site.right_column_size }}">
+      {% include outline-part-3.html %}
+    </div>
+  </div>
+  <h4 id="interviews">Interviews</h4>
+  <h3>
+    Part of the research for <em>{{ site.short_title }}</em> included interviews
+    with programmers from some of the most successful startups of the last decade,
+    including early employees of Google, Facebook, LinkedIn, Twitter, GitHub,
+    Stripe, Instagram, AdMob, Pinterest, and many others. You can find their
+    profiles below.
+  </h3>
+  <div class="row book-outline">
+    {% include interviews.html %}
+  </div>
+  <h4 id="add-book">Add the book</h4>
+  <h3>
+    Add <em>{{ site.short_title }}</em> on your favorite book sites:
+  </h3>
+  <div class="row book-outline">
+    {% include save-book.html %}
+  </div>
+  <div class="learn-more">
+    <div class="row">
+      <div class="col-lg-4 col-lg-offset-4">
+        <a href="#reviews" class="btn btn-primary btn-lg btn-block page-scroll">See the reviews &raquo;</a>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,26 @@
+<div class="container">
+  <h2>Buy now</h2>
+  <h3>
+    <em>{{ site.short_title }}</em> is available at the online stores below and
+    at your local bookstore. If you're interested in updates about the book and
+    other startup topics,
+    <a href="#" data-toggle="modal" data-target="#newsletter-modal">subscribe to the newsletter</a>!
+  </h3>
+  <div class="row">
+    {% for buy_link in site.data.buy_links %}
+      {% capture buy_text %}Buy {{ site.short_title }} on {{ buy_link.name }}{% endcapture %}
+      <div class="col-sm-6">
+        <a href="{{ buy_link.url }}" class="buy-link tracked" data-trk="buy-{{ buy_link.id }}-button-get-the-book" data-value="{{ buy_link.value }}" target="_blank" title="{{ buy_text }}">
+          <img src="images/{{ buy_link.image }}" alt="{{ buy_text }}" class="buy-button">
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+  <div class="learn-more">
+    <div class="row">
+      <div class="col-lg-4 col-lg-offset-4">
+        <a href="#news" class="btn btn-default btn-lg btn-block page-scroll">Latest news &raquo;</a>
+      </div>
+    </div>
+  </div>
+</div>

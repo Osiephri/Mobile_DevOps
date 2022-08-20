@@ -1,0 +1,54 @@
+---
+layout: resource
+inverse_nav: true
+blurb_include: "list-blurb.html"
+nav_include: "list-nav-include.html"
+---
+
+{{ content }}
+
+{% assign resource = site.data.resources[page.resource_key] %}
+{% for category in resource.categories %}
+  {% assign remainder = forloop.index0 | modulo:2 %}
+  <section id="{{ category.id }}"{% if remainder == 1 %}class="gray-section gray-gradient"{% endif %}>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h2>{{ category.name }}</h2>
+          {% if category.description %}
+            <h3>{{ category.description }}</h3>
+          {% endif %}
+          {% if category.include %}
+            {% include {{ category.include }} %}
+          {% else %}
+            {% for site in category.sites %}
+              <div class="row resouce-item">
+                <div class="col-sm-6">
+                  {% if site.image %}
+                    <a href="{{ site.url }}" target="_blank">
+                      <img src="/images/loading.gif" data-src="/images/resources/{{ page.resource_key }}/{{ site.image }}" alt="{{ site.name }}" class="img-responsive img-thumbnail"/>
+                    </a>
+                  {% else %}
+                    <div class="img-thumbnail no-screenshot">No screenshot available</div>
+                  {% endif %}
+                </div>
+                <div class="col-sm-6">
+                  <a href="{{ site.url }}" target="_blank">
+                    <h4>{{ site.name }}</h4>
+                  </a>
+                  <a href="{{ site.url }}" target="_blank" class="site-url">
+                    {{ site.url }}
+                  </a>
+                  {% if site.description %}
+                    <p>{{ site.description }}</p>                
+                  {% endif %}
+                </div>
+              </div>
+              <hr>
+            {% endfor %}
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </section>
+{% endfor %}

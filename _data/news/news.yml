@@ -1,0 +1,274 @@
+- id: "se-radio-interview"
+  url: "https://www.se-radio.net/2020/04/episode-405-yevgeniy-brikman-on-infrastructure-as-code-best-practices/"
+  title: "SE Radio Interview: Yevgeniy Brikman on Infrastructure as Code Best Practices"
+  date: "April 7, 2020"
+  image: "se-radio-interview.png"
+  description: |
+    Check out Yevgeniy Brikman's podcast interview with Software Engineering Radio on Infrastructure as Code best
+    practices. The discussion covers similarities and differences between conventional software engineering and
+    code-driven infrastructure; factoring code into modules; layering; terraform code organization for micro-services;
+    releases and tagging; code reviews; unit testing infrastructure; deployment of infrastructure; ownership and code
+    structure models; and open source and re-usable libraries.
+  call_to_action: "Listen to the podcast!"
+- id: "terraform-up-running-2nd-edition"
+  url: "https://www.terraformupandrunning.com"
+  title: "\"Terraform: Up & Running,\" 2nd edition, has been published"
+  date: "October 3, 2019"
+  image: "terraform_up&running_2e_cover_small.png"
+  description: |
+    "Terraform: Up & Running," 2nd edition, has been published! It's nearly double the length of the 1st edition
+    (~160 more pages), including two completely new chapters (Production-grade Terraform Code and How to Test Terraform
+    Code), and major changes to all the original chapters and code examples (everything is now updated through Terraform
+    0.12).
+  call_to_action: "Get a copy"
+- id: "1-million-arr"
+  url: "https://blog.gruntwork.io/how-we-got-to-1-million-in-annual-recurring-revenue-with-0-in-fundraising-340ed2b4e158"
+  title: "How we got to $1 million in annual recurring revenue with $0 in fundraising"
+  date: "October 4, 2018"
+  image: "gruntwork-logo-cloud.png"
+  description: |
+    Learn the three key lessons that helped Gruntwork get to $1 million in annual recurring revenue with $0 in
+    investment and $0 in debt.
+  call_to_action: "Read the blog post"
+- id: "chinese-translation"
+  url: "https://www.amazon.cn/dp/B07FSRBGJV"
+  title: "\"Hello, Startup\" is now available in Chinese!"
+  date: "August 20, 2018"
+  image: "hello-startup-cover-chinese.jpg"
+  description: |
+    A Chinese translation of "Hello, Startup" is now available!
+  call_to_action: "Grab a copy on amazon.cn"
+- id: "the-10-1-rule"
+  url: "https://www.ybrikman.com/writing/2018/08/12/the-10-to-1-rule-of-writing-and-programming/"
+  title: |
+    The 10:1 rule of writing and programming
+  date: "August 12, 2018"
+  image: "editing.jpg"
+  description: |
+    Writing prose and writing code have a lot in common, but perhaps the biggest similarity is that neither writers nor
+    programmers can get things done on time. Writers are notorious for missing deadlines. Programmers are notorious for
+    being wildly off with estimates. The question is, why?
+  call_to_action: "Read the blog post"
+- id: "how-to-build-startup"
+  url: "https://blog.gruntwork.io/how-we-built-a-distributed-self-funded-family-friendly-profitable-startup-93635feb5ace"
+  title: |
+    How we built a distributed, self-funded, family-friendly, profitable startup
+  date: "February 14, 2018"
+  image: "logo_with_text_new_website_small.png"
+  description: |
+    The story of how we built Gruntwork.
+  call_to_action: "Read the blog post"
+- id: "startup-dna"
+  url: "https://www.ybrikman.com/writing/2017/05/09/startup-dna/"
+  title: |
+    Startup DNA: the formula behind successful startups in Silicon Valley
+  date: "May 5, 2017"
+  image: "startup-dna-cover-small.png"
+  description: |
+    “Successful startups are all alike; every unsuccessful startup is unsuccessful in its own way.” These are my
+    personal observations on a few of the most important traits that make startups successful.
+  call_to_action: "Check out the video and slides"
+- id: "truth-about-startups"
+  url: "https://www.ybrikman.com/writing/2017/05/05/the-truth-about-startups/"
+  title: |
+    The Truth About Startups
+  date: "April 7, 2017"
+  image: "truth-about-startups.png"
+  description: |
+    This is the talk I gave at the MIT Martin Center for Entrepreneurship and the Trinity College Blackstone Launchpad.
+    It's a talk I wish someone gave me when I was in college to help me think about the role of entrepreneurship and
+    startups in my career.
+  call_to_action: "Check out the video and slides"
+- id: "teraform-up-and-running-published"
+  url: "https://www.terraformupandrunning.com/"
+  title: |
+    <em>Terraform: Up & Running</em> has been published!
+  date: "March 22, 2017"
+  image: "terraform-up-and-running-cover-medium.jpg"
+  description: |
+    The final version of my second book, <em>Terraform: Up & Running</em>, has been published, and the ebook and print
+    edition are now available online and in your local bookstores!
+  call_to_action: "Get your copy"
+- id: "devrant"
+  url: "https://www.devrant.io/podcasts/episode-2-yevgeniy-brikman"
+  title: "Yevgeniy Brikman on the devRant Podcast"
+  date: "January 9, 2017"
+  image: "devrant.png"
+  description: |
+    I did a podcast interview for the devRant podcast where I talk about how I got into programming, the biggest
+    lessons I've learned, the biggest lessons I've had to unlearn, DevOps, startups, and more.
+  call_to_action: "Listen to the podcast"
+- id: "yours-productly"
+  url: "http://yoursproductly.com/yevgeniy-brikman/"
+  title: "Yevgeniy Brikman on the Yours Productly Podcast"
+  date: "November 21, 2016"
+  image: "yours-productly.png"
+  description: |
+    I did an interview for the Yours Productly podcast where I talk about startups, product design, coming up with
+    startup ideas, minimal viable products, learning, writing, and more.
+  call_to_action: "Listen to the podcast"
+- id: "terraform-up-running-early-release"
+  url: "https://www.terraformupandrunning.com/"
+  title: "\"Terraform: Up & Running\" is now available as an early release!"
+  date: "November 17, 2016"
+  image: "terraform-up-and-running-cover-early-release.jpg"
+  description: |
+    I wrote another book! This book is the fastest way to get up and running with Terraform, an open source tool that
+    allows you to manage your infrastructure as code across a variety of cloud providers. It's now available in the
+    O'Reilly Store as an early release.
+  call_to_action: "Get your copy now"
+- id: "korean-translation"
+  url: "http://www.yes24.com/24/goods/31869272"
+  title: "\"Hello, Startup\" is now available in Korean!"
+  date: "September 6, 2016"
+  image: "hello-startup-korean-cover.jpeg"
+  description: |
+    A Korean translation of "Hello, Startup" is now available!
+  call_to_action: "Grab a copy on yes24.com"
+- id: "gruntwork-infrastructure-packages"
+  url: "https://blog.gruntwork.io/gruntwork-infrastructure-packages-7434dc77d0b1"
+  title: "Gruntwork Infrastructure Packages: world-class infrastructure, all of the control, none of the work."
+  date: "July 26, 2016"
+  image: "gruntwork-packages.jpeg"
+  description: |
+    An Infrastructure Package is a reusable, battle-tested, documented, configurable, best-practices definition of a
+    piece of infrastructure. We think it’s a better way to build and manage infrastructure. And today, we’re unveiling
+    the full list of Gruntwork Infrastructure Packages and releasing the documentation as open source so previous
+    customers can find info from a Google search and future customers can explore our packages directly.
+  call_to_action: "Read more on The Gruntwork Blog"
+- id: "why-best-devs-give-away-almost-everything"
+  url: "http://themacro.com/articles/2016/05/why-the-best-give-away/"
+  title: "Why the Best Companies and Developers Give Away Almost Everything They Do"
+  date: "May 26, 2016"
+  image: "macro-why-the-best-give-away.png"
+  description: |
+    Why do so many software companies and developers give away so much of their work in the form of open source,
+    writing, and speaking? Why would they invest thousands of hours and millions of dollars into a project and then
+    release it for free to everyone, even their competitors? In this blog post on Y Combinator's The Macro, I dive into
+    the key reasons why the best companies and developers share almost everything they do, discuss some of the common
+    objections to sharing, and by the end, I hope to convince you and your company to start sharing too.
+  call_to_action: "Read more on The Macro"
+- id: "introducing-gruntwork"
+  url: "https://www.ybrikman.com/writing/2016/04/25/introducing-gruntwork-up-and-running-aws-2-weeks/"
+  title: "Introducing Gruntwork"
+  date: "May 3, 2016"
+  image: "gruntwork-logo.png"
+  description: |
+    My company, Atomic Squirrel, has merged with Phoenix DevOps to create a new company called Gruntwork. We can get
+    you up and running on AWS with DevOps best practices and world-class infrastructure in about 2 weeks. You focus on
+    your product. We'll take care of the grunt work.
+  call_to_action: "Learn more about Gruntwork"
+- id: "startup-ideas-validation"
+  url: "https://www.ybrikman.com/writing/2016/02/14/startup-ideas-and-validation/"
+  title: "Startup Ideas and Validation"
+  date: "February 5, 2016"
+  image: "startup-ideas-validation-screenshot.png"
+  description: |
+    This is a talk on how to come up with startup ideas and how to use
+    validation to pick the ones worth working on.
+  call_to_action: "Check out the video and slides"
+- id: "mvp-is-a-process"
+  url: "http://themacro.com/articles/2016/01/minimum-viable-product-process/"
+  title: "A Minimum Viable Product Is Not a Product, It's a Process"
+  date: "January 22, 2016"
+  image: "macro-mvp.png"
+  description: |
+    I published a blog post on The Macro, Y Combinator's blog, that discusses
+    one of the most common causes of startup failure.
+  call_to_action: "Learn why an MVP is not a product, but a process"
+- id: "hello-startup-cornell-mba-list"
+  url: "http://www.johnson.cornell.edu/Entrepreneurship-and-Innovation-Institute/Resources/Blogs-Books"
+  title: "Recommended books for entrepreneurs"
+  date: "January 4, 2016"
+  image: "johnson-school-logo.png"
+  description: |
+    <em>Hello, Startup</em> is now listed on the Cornell Business School list of
+    recommended books for entrepreneurs!
+  call_to_action: "Check out the list!"
+- id: "hello-startup-number-one-new-release"
+  url: "http://www.amazon.com/Hello-Startup-Programmers-Building-Technologies/dp/1491909900"
+  title: "Number one new release on Amazon!"
+  date: "November 22, 2015"
+  image: "amazon-number-one-new-release.png"
+  description: |
+    <em>Hello, Startup</em> is now the number one new release in "Computers &
+    Technology" on Amazon!
+  call_to_action: "Buy <em>Hello, Startup</em> on Amazon"
+- id: "hello-startup-release"
+  url: "#buy-now"
+  title: "Hello, Startup has been released!"
+  date: "November 3, 2015"
+  image: "amazon-logo.png"
+  description: |
+    The final version of <em>Hello, Startup</em> has been published and is now
+    available online and in your local bookstores!
+  call_to_action: "Get your copy now"
+- id: "atomic-squirrel-startup-checklist"
+  url: "https://www.ybrikman.com/writing/2015/09/21/introducing-atomic-squirrel-startup-checklist/"
+  title: "Introducing Atomic Squirrel and The Startup Checklist"
+  date: "September 21, 2015"
+  image: "atomic-squirrel-logo.png"
+  description: |
+    For the last few months, I've been working on a new project: founding a
+    company. It's called Atomic Squirrel, and our goal is to help you launch
+    your startup. Check out our Startup Checklist, which contains a
+    comprehensive list of tasks for launching your own company.
+  call_to_action: "Read the full blog post"
+- id: "startup-essentials"
+  url: "http://www.oreilly.com/design/free/startup-essentials.csp"
+  title: "Startup Essentials"
+  date: "June 19, 2015"
+  image: "startup-essentials.gif"
+  description: |
+    Just released: a free e-book that is a curated collection of chapters from
+    the O'Reilly Business Library. It includes a chapter from my book,
+    <em>Hello, Startup</em>.
+  call_to_action: "Download the free e-book now"
+- id: "guide-to-hiring"
+  url: "https://www.ybrikman.com/writing/2015/05/07/guide-to-hiring-for-your-startup/"
+  title: "A Guide to Hiring for your Startup"
+  date: "May 7, 2015"
+  image: "guide-to-hiring.png"
+  description: |
+    On April 30, 2015, I gave a talk called "A Guide to Hiring for your Startup",
+    where I discussed what to look for in a candidates, where to find them, how to
+    interview them, and how to make an offer they can't refuse.
+  call_to_action: "Check out the video and slides"
+- id: "all-chapters"
+  url: "#buy-now"
+  title: "All chapters are now available in the early release!"
+  date: "April 17, 2015"
+  image: "hello-startup-laptop.png"
+  description: |
+    All the chapters of <em>Hello, Startup</em> are now available as part of the
+    Early Release program. The new additions include "Startup Ideas", "Product
+    Design", "Data & Distribution", "Scalability", and "Learning". Check it out
+    and send me your feedback!
+  call_to_action: "Get your copy now"
+- id: "oreilly-webcast-hiring"
+  url: "http://www.oreilly.com/pub/e/3356"
+  title: "Webcast: A Guide to Hiring for your Startup"
+  date: "February 24, 2015"
+  image: "oreilly-logo.jpg"
+  description: |
+    On April 30th, I'll be doing a free O'Reilly Webcast where I reveal
+    everything I've learned about hiring for startups.
+  call_to_action: "Register now"
+- id: "goodreads-page"
+  url: "https://www.goodreads.com/book/show/24915480-hello-startup-a-programmer-s-guide-to-building-products-technologies"
+  title: "Hello, Startup is on GoodReads!"
+  date: "February 15, 2015"
+  image: "goodreads-logo.jpg"
+  description: |
+    If you're a GoodReads user, you can add the book to your to-read list,
+    leave a review, and ask me questions.
+  call_to_action: "Check out <em>Hello, Startup</em> on GoodReads"
+- id: "early-release"
+  url: "#buy-now"
+  title: "Early release"
+  date: "February 11, 2015"
+  image: "oreilly-early-release.png"
+  description: |
+    <em>Hello, Startup</em> is on now available as part of the O'Reilly
+    Early Release program.
+  call_to_action: "Get your copy now"

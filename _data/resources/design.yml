@@ -1,0 +1,425 @@
+name: "Design"
+description: "Everything you need to design a user experience for your startup, including templates, fonts, wireframing tools, community resources, checklists, and further reading."
+icon: "paint-brush"
+type: "products"
+see_more: |
+  See the "Ideas, Design, MVP" chapter in
+  <a href="/#part-1-products">Part I, Products</a> for more info.
+categories:
+  - id: "website-templates"
+    name: "Website templates"
+    sites:
+      - name: "Bootstrap"
+        url: "http://getbootstrap.com/"
+        image: "bootstrap.jpg"
+        description: |
+          Bootstrap is the most popular HTML, CSS, and JS framework for
+          developing responsive, mobile first projects on the web.
+      - name: "Start Bootstrap"
+        url: "http://startbootstrap.com/"
+        image: "start-bootstrap.jpg"
+        description: "Free Bootstrap Themes &amp; Templates"
+      - name: "The big badass list of 319 useful Twitter Bootstrap resources"
+        url: "http://bootstraphero.com/the-big-badass-list-of-twitter-bootstrap-resources"
+        image: "bootstrap-hero.jpg"
+      - name: "GitHub Pages"
+        url: "https://pages.github.com/"
+        image: "github-pages.jpg"
+        description: |
+          Free hosting for static websites on GitHub. Comes with a number of
+          free themes and templates.
+      - name: "Jekyll Themes"
+        url: "http://jekyllthemes.org/"
+        image: "jekyll-themes.jpg"
+        description: |
+          Free themes/templates for Jekyll, which is the static site generator
+          that powers GitHub Pages.
+      - name: "Foundation"
+        url: "http://foundation.zurb.com/index.html"
+        image: "foundation.jpg"
+        description: "The most advanced responsive front-end framework in the world."
+      - name: "Foundation Templates"
+        url: "http://foundation.zurb.com/templates.html"
+        image: "foundation-templates.jpg"
+      - name: "Google Web Starter Kit"
+        url: "https://developers.google.com/web/starter-kit/"
+        image: "google-web-starter.jpg"
+        description: "Boilerplate &amp; Tooling for Multi-Device Development"
+      - name: "HTML5 UP"
+        url: "http://html5up.net/"
+        image: "html5up.jpg"
+      - name: "40 Free Branding &amp; Identity Mockup Templates"
+        url: "http://designinstruct.com/print-design/free-branding-identity-mockups/"
+      - name: "100 Free Responsive HTML5 CSS3 Website Templates"
+        url: "https://w3layouts.com/"
+        image: "100-free-templates.jpg"
+      - name: "Hugo Themes"
+        url: "http://themes.gohugo.io/"
+        image: "hugo-themes-site.jpg"
+      - name: "One Page Love"
+        url: "https://onepagelove.com/"
+        image: "one-page-love.jpg"
+      # http://xlandings.com/
+      # https://templated.co/
+  - id: "mobile-templates"
+    name: "Mobile templates"
+    sites:
+      - name: "Ratchet"
+        url: "http://goratchet.com/"
+        image: "ratchet.jpg"
+        description: "Build mobile apps with simple HTML‚ CSS‚ and JS components."
+      - name: "Inspired UI"
+        url: "http://inspired-ui.com/"
+        image: "inspired-ui.jpg"
+        description: "Mobile Apps Design Patterns"
+      - name: "Pttrns"
+        url: "http://www.pttrns.com/"
+        image: "pttrns.jpg"
+        description: "Mobile User Interface Patterns"
+      - name: "Mobile Patterns"
+        url: "http://www.mobile-patterns.com/"
+        image: "mobile-patterns.jpg"
+      - name: "10 Pure CSS (Mostly) Flat Mobile Devices"
+        url: "http://marvelapp.github.io/devices.css/"
+        image: "css-flat-mobile-devices.jpg"
+        description: |
+          We've created several minimal iPhone, Android, Lumia and iPad devices
+          in pure CSS to showcase the prototypes our users make on Marvel.
+          Grab the code, remix and enjoy!
+  - id: "email-templates"
+    name: "Email templates"
+    sites:
+      - name: "Open Source Email Templates"
+        url: "https://www.sendwithus.com/resources/templates"
+        image: "sendwithus-email-templates.jpg"
+        description: "Responsive, free, and community driven email templates from Sendwithus"
+      - name: "Email Templates"
+        url: "http://mailchimp.com/features/email-templates/"
+        image: "mailchimp-email-templates.jpg"
+        description: "Email templates from MailChimp"
+      - name: "HTML Email Templates"
+        url: "https://www.campaignmonitor.com/email-templates/#gallery"
+        image: "campaign-monitor-email-templates.jpg"
+        description: "Email templates from Campaign Monitor"
+      # https://beefree.io/index.html
+  - id: "fonts"
+    name: "Fonts"
+    sites:
+      - name: "Google Fonts"
+        url: "https://www.google.com/fonts"
+        image: "google-fonts.jpg"
+        description: "Free, open source fonts with CDN hosting by Google."
+      - name: "Adobe Typekit"
+        url: "https://typekit.com/"
+        image: "adobe-typekit.jpg"
+        description: |
+          Typekit is a subscription font service that brings thousands of fonts
+          from foundry partners into one library for quick browsing, easy use
+          on the web or in applications, and endless typographic inspiration.
+      - name: "Fonts by Hoefler & Co."
+        url: "http://www.typography.com/"
+        image: "hoefler-co.jpg"
+  - id: "font-pairing"
+    name: "Font pairing"
+    sites:
+      - name: "Google Web Fonts Typographic Project"
+        url: "http://femmebot.github.io/google-type/"
+        image: "google-font-pairings.jpg"
+        description: |
+          Hand-picked tales from Aesop’s fables with hand-picked type from
+          Google Fonts.
+      - name: "Font Pair"
+        url: "http://fontpair.co/"
+        image: "font-pair.jpg"
+        description: |
+          Font Pair helps designers pair Google Fonts together.
+      - name: "Just My Type"
+        url: "http://justmytype.co/"
+        image: "just-my-type.jpg"
+        description: |
+          A collection of font pairings from Typekit and H&FJ.
+      - name: "Type Genius"
+        url: "http://www.typegenius.com/"
+        image: "type-genius.jpg"
+        description: |
+          Find the perfect font combo for your next project.
+      - name: "typ.io: What font goes with what?"
+        url: "http://www.typ.io/"
+        image: "typ.io.jpg"
+        description: |
+          We're revealing designers' decisions for all to see; peeking under
+          the hood of beautiful websites to find out what fonts they're using
+          and how they're using them. Ultimately, we want to know what font
+          goes with what?
+      # https://designschool.canva.com/blog/calligraphy-fonts/
+  - id: "color-palettes"
+    name: "Color Palettes"
+    sites:
+      - name: "Adobe Color CC"
+        url: "https://color.adobe.com/create/color-wheel"
+        image: "adobe-color-cc.jpg"
+      - name: "Paletton"
+        url: "http://paletton.com/"
+        image: "paletton.jpg"
+      - name: "Coolors"
+        url: "https://coolors.co/"
+        image: "coolors.jpg"
+      - name: "Dribbble Color Search"
+        url: "https://dribbble.com/colors"
+        image: "dribbble-colors.jpg"
+      - name: "Colour Lovers Palettes"
+        url: "http://www.colourlovers.com/palettes"
+        image: "colour-lovers-palettes.jpg"
+  - id: "wireframing-tools"
+    name: "Wireframing and mockup tools"
+    sites:
+      - name: "Sketch"
+        url: "http://bohemiancoding.com/sketch/"
+        image: "sketch.jpg"
+      - name: "Balsamiq"
+        url: "http://balsamiq.com/"
+        image: "balsamiq.jpg"
+        description: |
+          Balsamiq Mockups is a rapid wireframing tool that helps you Work
+          Faster &amp; Smarter. It reproduces the experience of sketching on a
+          whiteboard, but using a computer.
+      - name: "moqups"
+        url: "https://moqups.com/"
+        image: "moqups.jpg"
+      - name: "mockingbird"
+        url: "https://gomockingbird.com/"
+        image: "mockingbird.jpg"
+      - name: "Mockup Designer"
+        url: "http://fatiherikli.github.io/mockup-designer/"
+        image: "mockup-designer.jpg"
+      - name: "OmniGraffle"
+        url: "http://www.omnigroup.com/omnigraffle/"
+        image: "omnigraffle.jpg"
+        description: |
+          OmniGraffle is for creating precise, beautiful graphics. Like website
+          wireframes, an electrical system design, a family tree, or mapping
+          out software classes.
+      - name: "draw.io"
+        url: "https://www.draw.io"
+        image: "draw-io.jpg"
+  - id: "usability-testing-feedback"
+    name: "Usability testing and user surveys"
+    sites:
+      - name: "UsabilityTools UX Suite"
+        url: "http://usabilitytools.com/ux-suite/"
+        image: "usability-tools-ux-suite.jpg"
+        description: |
+          A suite of remote testing tools, including click testing, web
+          testing, and surveys.
+      - name: "GhostRec"
+        url: "http://www.ghostrec.com/"
+        image: "ghost-rec.jpg"
+        description: |
+          Record real visitors surfing your website without additional hardware
+          or software.
+      - name: "Fivesecondtest"
+        url: "http://fivesecondtest.com/"
+        image: "five-second-test.jpg"
+      - name: "Usabilla"
+        url: "https://usabilla.com/"
+        image: "usabilla.jpg"
+      - name: "Free Copy Critique"
+        url: "http://www.freecopycritique.com/"
+        description: |
+          Get a free copy critique of your website.
+      - name: "ClickHeat"
+        url: "http://www.labsmedia.com/clickheat/index.html"
+        image: "click-heat.jpg"
+        description: |
+          ClickHeat is a visual heatmap of clicks on a HTML page, showing hot
+          and cold click zones. ClickHeat is an OpenSource software, released
+          under GPL licence, and free of charge.
+      - name: "Clicktale"
+        url: "http://www.clicktale.com/"
+        image: "click-tale.jpg"
+      - name: "Qualaroo"
+        url: "https://qualaroo.com/"
+        image: "qualaroo.jpg"
+      - name: "Silverback"
+        url: "http://silverbackapp.com/"
+        description: "Guerilla usability testing on the Mac made easy"
+        image: "silverback.jpg"
+      - name: "survey.io"
+        url: "http://survey.io/"
+        image: "survey-io.jpg"
+        description: |
+          Have you every wondered who the most passionate users of your product
+          are? Or why they are using it? We have too! That's why we are
+          creating tools to enable you to better understand your customers to
+          help you improve your product. Survey.io is a simple survey tool
+          originally created as a collaboration between Sean Ellis and
+          KISSmetrics.
+  - id: "design-services"
+    name: "Design services and community"
+    sites:
+      - name: "Dribbble"
+        url: "https://dribbble.com/"
+        image: "dribbble.jpg"
+        description: |
+          What are you working on? Dribbble is a community of designers
+          answering that question each day. Web designers, graphic designers,
+          illustrators, icon artists, typographers, logo designers, and other
+          creative types share small screenshots (shots) that show their work,
+          process, and current projects.
+      - name: "DesignCrowd"
+        url: "http://www.designcrowd.com/"
+        image: "design-crowd.jpg"
+        description: |
+          DesignCrowd is an online marketplace providing logo, website, print
+          and graphic design services by providing access to freelance graphic
+          designers and design studios around the world.
+      - name: "99designs"
+        url: "http://99designs.com/"
+        image: "99designs.jpg"
+        description: |
+          99designs pioneered the design contest, where designers submit
+          competing designs in response to a customer’s design brief—and the
+          winner receives a cash payment for their work. Through more than
+          371,806 design contests, we’ve paid out $93,422,757 to our designer
+          community to date.
+      - name: "Graphic Springs"
+        url: "https://www.graphicsprings.com"
+        image: "graphic-springs.jpg"
+        description: |
+          Online logo maker. Creating the logo is free, but if you want to
+          download it, it's $39.99.
+      # http://logomakr.com/
+      # http://www.designmantic.com/
+      # http://www.squarespace.com/logo/
+      # http://www.logodust.com/
+  - id: "design-checklists"
+    name: "Design checklists"
+    sites:
+      - name: "Quick Usability Checklist"
+        url: "http://www.uxbooth.com/articles/quick-usability-checklist/"
+        image: "usability-checklist.jpg"
+        description: |
+          After reviewing websites for a few months, I’ve begun to see general
+          patterns emerge that make a site more or less usable. In this post,
+          I’d like to highlight some of the more common problems designers
+          should address on their own sites in a Usability checklist of sorts.
+      - name: "25-point Website Usability Checklist"
+        url: "http://drpete.co/topic/25-point-website-usability-checklist"
+        image: "25-point-usability-checklist.jpg"
+      - name: "15 Essential Checks Before Launching Your Website"
+        url: "http://www.smashingmagazine.com/2009/04/07/15-essential-checks-before-launching-your-website/"
+        image: "15-essential-checks.jpg"
+      - name: "IxD (Interaction Design) Checklist"
+        url: "http://ixdchecklist.com/"
+        image: "ixd-checklist.jpg"
+      - name: "Web standards checklist"
+        url: "http://www.maxdesign.com.au/articles/checklist/"
+        description: |
+          A site built to web standards should adhere to standards (HTML,
+          XHTML, XML, CSS, XSLT, DOM, MathML, SVG etc) and pursue best
+          practices (valid code, accessible code, semantically correct code,
+          user-friendly URLs etc). In other words, a site built to web
+          standards should ideally be lean, clean, CSS-based, accessible,
+          usable and search engine friendly.
+      - name: "Aaron Cannon’s Web Accessibility Checklist"
+        url: "http://cameronmoll.com/archives/2008/06/web_accessibility_checklist/"
+        description: |
+          When I wrote the below checklist, I attempted to answer the question,
+          ‘What concise pieces of advice can I give to designers that will have
+          the greatest impact on accessibility in the majority of cases?’
+  - id: "personas"
+    name: "User Personas"
+    sites:
+      - name: "Introduction to User Personas"
+        url: "http://www.ux-lady.com/introduction-to-user-personas/"
+        image: "intro-to-user-personas.jpg"
+        description: |
+          From all over the techniques and tools related to design process and
+          User experience, only personas appears as a consistent common
+          denominator, even in methods against the use of extensive
+          “deliverables” as Lean UX. Most of the point of view agree in that
+          the secret of a great user experiences strategy lies on this tool,
+          even so the building process varies significantly.
+      - name: "Personas - Development Impact and You"
+        url: "http://diytoolkit.org/tools/personas-2/"
+        image: "personas-dev-impact.jpg"
+        description: |
+          Personas are portraits of fictional but realistic individuals that
+          are used as a common reference point to communicate particular groups
+          in your intended audience. Personas are created by drawing together
+          the characteristics of similar people – their behaviours, motivations
+          and the like – into one ‘archetype’ through which the group can be
+          understood. By creating a fictional character to embody these
+          characteristics, you don’t lose the little details that make someone
+          the person they are. In this way, Personas help ensure that your
+          work stays focused on people, rather than an abstract description
+          of the group they are said to represent.
+      - name: "Personas"
+        url: "http://www.usability.gov/how-to-and-tools/methods/personas.html"
+        description: |
+          The purpose of personas is to create reliable and realistic
+          representations of your key audience segments for reference. These
+          representations should be based on qualitative and some quantitative
+          user research and web analytics.
+  - id: "further-reading"
+    name: "Further Reading"
+    sites:
+      - name: "A Crash Course on Design for Developers"
+        url: "https://www.ybrikman.com/writing/2015/10/07/crash-course-design-for-developers/"
+        image: "crash-course-design-developers.jpg"
+        description: |
+          This is a talk that introduces the basic tools of user-centered and
+          visual design. It’s targeted at developers and any other design
+          newbies who want to improve the design of their websites, mobile
+          apps, resumes, slide decks, and so on.
+      - name: "The Non-Designer's Design Book"
+        url: "http://www.amazon.com/dp/0133966151/?tag=hello-startup-20"
+        image: "non-designers-design-book.jpg"
+      - name: "The Design of Everyday Things"
+        url: "http://www.amazon.com/dp/0465050654/?tag=hello-startup-20"
+        image: "design-everday-things.jpg"
+      - name: "The Inmates Are Running the Asylum"
+        url: "http://www.amazon.com/dp/0672326140/?tag=hello-startup-20"
+        image: "inmates-running-asylum.jpg"
+      - name: "Don't Make Me Think"
+        url: "http://www.amazon.com/dp/0321965515/?tag=hello-startup-20"
+        image: "dont-make-me-think.jpg"
+      - name: "On Writing Well"
+        url: "http://www.amazon.com/dp/0060891548/?tag=hello-startup-20"
+        image: "on-writing-well.jpg"
+      - name: "UX Basics for Startups"
+        url: "http://www.adub.net/post/43944830969/ux-basics-for-startups"
+      - name: "Google Web Fundamentals"
+        url: "https://developers.google.com/web/fundamentals/"
+        image: "google-web-fundamentals.jpg"
+      - name: "Principles of mobile site design"
+        url: "http://www.google.com/think/multiscreen/whitepaper-sitedesign.html"
+      - name: "8 Effective Web Design Principles You Should Know"
+        url: "http://conversionxl.com/8-universal-web-design-principles-you-should-to-know/"
+        image: "universal-web-design-principles.jpg"
+      - name: "Concrete Lessons In Great Copywriting From CoSchedule's Kick-Ass Homepage"
+        url: "http://inbound.org/post/view/concrete-lessons-in-great-copywriting-from-coschedule-s-kick-ass-homepage"
+        image: "copywriting.jpg"
+      - name: "7 Rules for Creating Gorgeous UI"
+        url: "https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-1-559d4e805cda"
+      - name: "10 Principles Of Effective Web Design"
+        url: "http://www.smashingmagazine.com/2008/01/31/10-principles-of-effective-web-design/"
+        image: "principles-effective-web-design.jpg"
+      - name: "Butterick’s Practical Typography"
+        url: "http://practicaltypography.com/"
+        image: "practical-typography.jpg"
+      - name: "Web typography for non-designers"
+        url: "http://www.presslabs.com/blog/web-typography-for-non-designers/"
+        design: "Web design is 95% typography."
+      - name: "A List Apart"
+        url: "http://alistapart.com/topics/design"
+        image: "a-list-apart.jpg"
+        description: |
+          A List Apart explores the design, development, and meaning of web
+          content, with a special focus on web standards and best practices.
+      - name: "UI Design Do’s and Don’ts"
+        url: "https://developer.apple.com/design/tips/"
+        image: "apple-ui-dos-donts.jpg"
+        design: |
+          Apple's list of design concepts for building iOS apps.
+

@@ -1,0 +1,35 @@
+- id: "amazon"
+  name: "Amazon"
+  url: "http://www.amazon.com/Hello-Startup-Programmers-Building-Technologies/dp/1491909900"
+  image: "amazon-small.png"
+  value: 20
+- id: "barnes-noble"
+  name: "Barnes & Noble"
+  url: "http://www.barnesandnoble.com/w/hello-startup-yevgeniy-brikman/1121522751"
+  image: "barnes-noble-small.png"
+  value: 20
+- id: "oreilly"
+  name: "O'Reilly Media Store"
+  url: "http://shop.oreilly.com/product/0636920034360.do"
+  image: "oreilly-store-small.gif"
+  value: 35
+- id: "safari"
+  name: "Safari Books Online"
+  url: "https://www.safaribooksonline.com/library/view/hello-startup/9781491910016/"
+  image: "safari-store-small.gif"
+  value: 0
+- id: "yes24"
+  name: "Yes24.com (Korean translation)"
+  url: "http://www.yes24.com/24/goods/31869272"
+  image: "yes24-logo.png"
+  value: 28
+- id: "amazon-cn"
+  name: "Amazon.cn (Chinese translation)"
+  url: "https://www.amazon.cn/dp/B07FSRBGJV"
+  image: "amazon-cn-logo.png"
+  value: 15
+- id: "item-jd"
+  name: "JD.com (Chinese translation)"
+  url: "https://item.jd.com/12411566.html"
+  image: "jd-logo.png"
+  value: 15

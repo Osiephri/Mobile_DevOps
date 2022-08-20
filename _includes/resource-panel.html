@@ -1,0 +1,22 @@
+{% for resourceHash in site.data.resources %}
+  {% assign resourceId = resourceHash[0] %}
+  {% assign resource = resourceHash[1] %}
+  
+  {% capture media_left %}
+    <i class="fa fa-{{ resource.icon }} fa-2x"></i>
+  {% endcapture %}
+
+  {% if resource.type == type and resource.disabled != true %}
+    <div class="media">
+      <div class="media-left">
+        <a href="/resources/{{ resourceId }}">{{ media_left }}</a>
+      </div>
+      <div class="media-body">
+        <h5 class="media-heading">
+          <a href="/resources/{{ resourceId }}">{{ resource.name }}</a>
+        </h5>
+        <p>{{ resource.description }}</p>
+      </div>
+    </div>
+  {% endif %}
+{% endfor %}
